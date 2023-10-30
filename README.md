@@ -48,8 +48,9 @@ while (time >= 0) {
 }
 printf("You suck at drinking water!\n");
 ```
+
 All we need is to empty the glass without getting outside of our time scope. Job well done.
-This solution can be applied to track any kind of activity ie. reading, writing, learning, exercising, brushing teeth etc. as long as it is devisable into modules. 
+This solution can be applied to track any kind of activity ie. reading, writing, learning, exercising, brushing teeth etc. as long as it is dividable into modules. 
 Furthermore, with small modification you could even track progress of collecting money for holiday trip!
 
 ## Implementation:
@@ -58,23 +59,30 @@ Furthermore, with small modification you could even track progress of collecting
 
 Since we decided we want to not only track progression of our project, but also staying motivated and feel proud about effort we put in, constant visualisation was imperative. Due to cost and time restriction, advanced methods of indication where out of scope, and I settled on fuel gauge design simulated by small RC servo with painted-red, flat ice lolly stick, attached to the servo arm. This primitive gauge was than pushed through small empty box that once held cov-19 tests. 
 It looked rather sad, so I decided to cut same size paper card, draw a dial with pencil and cut a hole for the button.
+
 ![D.O.T - Daily-on-tracker](./assets/dot-face.jpg)
 
-Inside, position Arduino and fix it with a tack, if you have a small breadboard use it to hold switch and tack it in non-interfering position directly underneath button hole, connect everything according to following diagram: ![D.O.T - circuit diagram](./assets/dot-diagram.png)
+Inside, position Arduino and fix it with a tack, if you have a small breadboard use it to hold switch and tack it in non-interfering position directly underneath button hole, connect everything according to following diagram:
+
+![D.O.T - circuit diagram](./assets/dot-diagram.png)
+
 This completes our manual work. You should end up with something like this:
+
 ![D.O.T - inside](./assets/dot-inside.jpg)
     
 > Bill of Materials:
-- Small flat cardboard box (use whatever would be put into bin)
-- Short wine cork (I used port cork)
-- Indicator arm (flat ice lolly stick, or cut one from thick card)
-- Printed or drawn/painted card with dial (to stick on front facing side of our D.O.T)
-- White/blue tack
-- Arduino Uno R3
-- Tactile switch (spst/dpst)
-- Small RC Servo
-- Wires to connect electronics together
-- Small breadboard (optional)
+
+>- Small flat cardboard box (use whatever would be put into bin)
+>- Short wine cork (I used port cork)
+>- Indicator arm (flat ice lolly stick, or cut one from thick card)
+>- Printed or drawn/painted card with dial (to stick on front facing side of our D.O.T)
+>- White/blue tack
+>- Arduino Uno R3
+>- Tactile switch (spst/dpst)
+>- Small RC Servo
+>- Wires to connect electronics together
+>- Small breadboard (optional)
+
 
 - **Code:**
 
@@ -82,7 +90,9 @@ Well commented code is available here: [D.O.T - code](./dot-code.ino), you will 
 
 ## Result:
 
+Mechanism of action is very similar to fuel gauge. Every hour indicator arm is shifting toward "You are running out of time", pressurising you to make an effort and complete planned activity, only after completing an activity you are allowed to "smash that button", adding time to continously decresing time window. 
 Overall, from ideation to first tests of the D.O.T took 12 hours with further 12 hours of overnight tests (which failed miserably because assigning result of operation on non type-cast numeral literals is a bad idea).
+
 
 Working D.O.T with tick set to 2 seconds, during normal operation that would be one hour: 
 
