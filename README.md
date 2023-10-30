@@ -70,8 +70,7 @@ This completes our manual work. You should end up with something like this:
 
 ![D.O.T - inside](./assets/dot-inside.jpg)
     
-> Bill of Materials:
-
+> **Bill of Materials:**
 >- Small flat cardboard box (use whatever would be put into bin)
 >- Short wine cork (I used port cork)
 >- Indicator arm (flat ice lolly stick, or cut one from thick card)
@@ -100,4 +99,4 @@ https://github.com/stshellletsski/D.O.T/assets/118393661/6b4ef643-2908-4dec-8d80
 
 ### Notes:
 
-D.O.T was (and still is) a smashing success, allowing me to contribute consistent effort even on days when I did not "feel like it". Although due to pushing work and overestimating my capabilities I was often "in the red", and knowing that, I would set it up for less modules/week to feel more rewarded.
+D.O.T was (and still is) a smashing success, allowing me to contribute consistent effort even on days when I did not "feel like it". Although due to pushing instead of pulling work and having very high expectations, I was often "in the red". Looking back, I would set it up for less modules/week to feel more rewarded.
