@@ -89,7 +89,7 @@ Well commented code is available here: [D.O.T - code](./dot-code.ino), you will 
 
 ## Result:
 
-Mechanism of action is very similar to fuel gauge. Every hour indicator arm is shifting toward "You are running out of time", pressurising you to make an effort and complete planned activity, only after completing an activity you are allowed to "smash that button", adding time to continously decresing time window. 
+Mechanism of action is very similar to fuel gauge. Every hour indicator arm is shifting toward "You are running out of time", pressurising you to make an effort and complete planned activity, only after completing an activity you are allowed to "smash that button", adding time to continuously decreasing time window. 
 Overall, from ideation to first tests of the D.O.T took 12 hours with further 12 hours of overnight tests (which failed miserably because assigning result of operation on non type-cast numeral literals is a bad idea).
 
 
