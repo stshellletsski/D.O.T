@@ -62,4 +62,8 @@ Since we decided we want to not only track progression of our project, but also 
 It looked rather sad, so I decided to cut same size paper card, draw a dial with pencil, cut a hole for the button and      
     
 WIP - coming shortly.
+video test
+
+
+https://github.com/stshellletsski/D.O.T/assets/118393661/6b4ef643-2908-4dec-8d80-2eae240ed73a
 
