@@ -1,8 +1,10 @@
 # D.O.T - Daily On Tracker, 24h hackathon-style project using Arduino as a platform
 
+![DOT - Daily-on-tracker](./assets/dot-face.jpg)
+
 ## Synopsis:
 
-During my adventure with IBM skillsbuild platform in april 2023, I found a need for tool to help me manage workload.
+During my adventure with IBM Skillsbuild platform in april 2023, I found a need for tool to help me manage workload.
 This tool had to meet following requirements:
 - non-ephemeral, and by extension non-virtual
 - Tracking progression of **one** activity
@@ -32,7 +34,7 @@ One could say "Just drink a glass every 2 hours to accommodate for 8 hour sleep"
 
 ## Solution:
 
-In above example, given finite and describable buffer of time (24 hour scope), we don't care if we drink water regularly, as long as we drink 8 glasses of water in that scope of time, we will be fine. We established that 1 glass of water = 3 hours of time and thus we could describe a solution to our drinking problem as a following loop:
+In above example, given finite and describable buffer of time (24 hour scope), we don't care if we drink water regularly, as long as we drink 8 glasses of water in that scope of time, we will be fine. We established that 1 glass of water = 3 hours of time and thus we could describe a solution to our drinking problem as a following logic:
 
 ```
 bool glassEmpty = false; 
