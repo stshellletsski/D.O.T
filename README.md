@@ -100,3 +100,7 @@ https://github.com/stshellletsski/D.O.T/assets/118393661/6b4ef643-2908-4dec-8d80
 ### Notes:
 
 D.O.T was (and still is) a smashing success, allowing me to contribute consistent effort even on days when I did not "feel like it". Although due to pushing instead of pulling work and having very high expectations, I was often "in the red". Looking back, I would set it up for less modules/week to feel more rewarded.
+
+### Future development:
+
+As resources will permit, I plan to change platform, add wi-fi connectivity, develop native/web app to simplify configuration and log progression.
